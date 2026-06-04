@@ -1061,26 +1061,48 @@ img {
   .hero {
     min-height: auto;
   }
+  .hero__overlay {
+    background: linear-gradient(
+      180deg,
+      rgba(11, 22, 43, 0.9) 0%,
+      rgba(11, 22, 43, 0.82) 55%,
+      rgba(13, 30, 64, 0.86) 100%
+    );
+  }
   .hero__inner {
-    padding: 48px 0;
+    padding: 40px 0 36px;
   }
   .hero__badge {
     margin-bottom: 16px;
-    font-size: 0.7rem;
+    font-size: 0.66rem;
+    padding: 5px 13px;
+  }
+  .hero__slide h1 {
+    font-size: 1.85rem;
+    line-height: 1.18;
+    min-height: 0;
   }
   .hero__slide p {
-    margin-top: 14px;
+    margin-top: 12px;
     font-size: 1rem;
+    line-height: 1.55;
+  }
+  .hero__strap {
+    margin-top: 16px;
+    padding-top: 14px;
+    font-size: 0.88rem;
   }
   .hero__cta {
-    margin-top: 24px;
+    margin-top: 22px;
+    gap: 10px;
   }
   .hero__cta .btn {
     width: 100%;
     justify-content: center;
   }
-  .hero__strap {
-    font-size: 0.9rem;
+  .hero__dots {
+    margin-top: 24px;
+    justify-content: center;
   }
 
   /* Inner page header */
