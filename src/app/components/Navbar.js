@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import { company } from "../data";
 
 const LINKS = [
@@ -14,15 +17,18 @@ const LINKS = [
 ];
 
 export default function Navbar() {
+  const [open, setOpen] = useState(false);
+  const close = () => setOpen(false);
+
   return (
     <header className="nav">
       <div className="container nav__inner">
-        <Link href="/" className="nav__brand">
+        <Link href="/" className="nav__brand" onClick={close}>
           <Image
             src="/Gemini_Generated_Image_t9neu3t9neu3t9ne.png"
             alt={`${company.name} logo`}
-            width={85}
-            height={85}
+            width={56}
+            height={56}
             priority
           />
           <span className="nav__brandtext">
@@ -30,15 +36,25 @@ export default function Navbar() {
             <span>Machines &amp; Automation</span>
           </span>
         </Link>
-        <nav className="nav__links">
+
+        <button
+          type="button"
+          className={`nav__toggle ${open ? "is-open" : ""}`}
+          aria-label="Toggle navigation menu"
+          aria-expanded={open}
+          onClick={() => setOpen((v) => !v)}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+
+        <nav className={`nav__links ${open ? "is-open" : ""}`}>
           {LINKS.map((l) => (
-            <Link key={l.href} href={l.href}>
+            <Link key={l.href} href={l.href} onClick={close}>
               {l.label}
             </Link>
           ))}
-          <a href={`mailto:${company.email}`} className="nav__cta">
-            Get a Quote
-          </a>
         </nav>
       </div>
     </header>

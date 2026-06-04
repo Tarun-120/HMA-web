@@ -24,7 +24,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 116px;
+  scroll-padding-top: 84px;
 }
 html,
 body {
@@ -167,7 +167,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 104px;
+  height: 76px;
 }
 .nav__brand {
   display: flex;
@@ -175,7 +175,7 @@ img {
   gap: 12px;
 }
 .nav__brand img {
-  height: 92px;
+  height: 56px;
   width: auto;
 }
 .nav__brandtext {
@@ -205,18 +205,74 @@ img {
 .nav__links a:hover {
   color: var(--blue);
 }
-.nav__cta {
-  background: var(--blue);
-  color: #fff !important;
-  padding: 9px 18px;
-  border-radius: 8px;
+
+/* Hamburger toggle — hidden on desktop, shown on tablet/mobile */
+.nav__toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 44px;
+  height: 44px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: #fff;
+  cursor: pointer;
 }
-.nav__cta:hover {
-  background: var(--blue-bright);
+.nav__toggle span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--navy);
+  transition: transform 0.25s ease, opacity 0.2s ease;
 }
-@media (max-width: 900px) {
-  .nav__links a:not(.nav__cta) {
-    display: none;
+.nav__toggle.is-open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.nav__toggle.is-open span:nth-child(2) {
+  opacity: 0;
+}
+.nav__toggle.is-open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+@media (max-width: 992px) {
+  .nav__toggle {
+    display: flex;
+  }
+  .nav__links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+    box-shadow: var(--shadow);
+    padding: 6px 0;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: max-height 0.3s ease, opacity 0.2s ease;
+  }
+  .nav__links.is-open {
+    max-height: calc(100vh - 76px);
+    overflow-y: auto;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .nav__links a {
+    padding: 14px 24px;
+    font-size: 1rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .nav__links a:last-child {
+    border-bottom: none;
   }
 }
 
@@ -983,5 +1039,107 @@ img {
 @media (max-width: 480px) {
   .footer__top {
     grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Mobile-only: tighten spacing & shrink content ===== */
+@media (max-width: 600px) {
+  .container {
+    padding: 0 16px;
+  }
+  .section {
+    padding: 44px 0;
+  }
+  .head {
+    margin-bottom: 32px;
+  }
+  .sub {
+    font-size: 0.96rem;
+  }
+
+  /* Hero */
+  .hero {
+    min-height: auto;
+  }
+  .hero__inner {
+    padding: 48px 0;
+  }
+  .hero__badge {
+    margin-bottom: 16px;
+    font-size: 0.7rem;
+  }
+  .hero__slide p {
+    margin-top: 14px;
+    font-size: 1rem;
+  }
+  .hero__cta {
+    margin-top: 24px;
+  }
+  .hero__cta .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .hero__strap {
+    font-size: 0.9rem;
+  }
+
+  /* Inner page header */
+  .phead {
+    padding: 44px 0;
+  }
+  .phead__sub {
+    font-size: 0.98rem;
+  }
+
+  /* Overview / panels */
+  .overview {
+    gap: 32px;
+  }
+  .overview__text p {
+    font-size: 0.98rem;
+  }
+  .overview__panel {
+    padding: 24px;
+  }
+  .stats {
+    gap: 14px;
+    margin-top: 36px;
+  }
+  .stat {
+    padding: 18px 10px;
+  }
+  .stat b {
+    font-size: 1.7rem;
+  }
+
+  /* Cards & lists */
+  .scard__body,
+  .deal,
+  .why__card {
+    padding: 22px;
+  }
+  .ads {
+    gap: 28px;
+  }
+  .ads__visual {
+    min-height: 200px;
+    font-size: 3.4rem;
+  }
+  .ads h3 {
+    font-size: 1.4rem;
+  }
+
+  /* Make in India / management */
+  .mii {
+    padding: 44px 0;
+  }
+  .mgmt__quote {
+    padding: 0;
+  }
+
+  /* Buttons full-width for easy tapping */
+  .btn {
+    padding: 12px 22px;
+    font-size: 0.94rem;
   }
 }
