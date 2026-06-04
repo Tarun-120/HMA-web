@@ -1,0 +1,90 @@
+[
+  {
+    "slide": 1,
+    "images": [
+      "image3.png",
+      "image2.png",
+      "image1.png",
+      "image4.png"
+    ]
+  },
+  {
+    "slide": 2,
+    "images": [
+      "image6.png",
+      "image5.png"
+    ]
+  },
+  {
+    "slide": 3,
+    "images": []
+  },
+  {
+    "slide": 4,
+    "images": [
+      "image8.jpeg",
+      "image7.jpeg"
+    ]
+  },
+  {
+    "slide": 5,
+    "images": [
+      "image9.png"
+    ]
+  },
+  {
+    "slide": 6,
+    "images": [
+      "image11.png",
+      "image10.png"
+    ]
+  },
+  {
+    "slide": 7,
+    "images": [
+      "image18.jpeg",
+      "image23.jpeg",
+      "image13.jpeg",
+      "image17.jpeg",
+      "image22.jpeg",
+      "image27.png",
+      "image12.jpeg",
+      "image26.jpeg",
+      "image16.jpeg",
+      "image21.jpeg",
+      "image15.jpeg",
+      "image25.jpeg",
+      "image20.jpeg",
+      "image14.jpeg",
+      "image19.jpeg",
+      "image24.jpeg"
+    ]
+  },
+  {
+    "slide": 8,
+    "images": []
+  },
+  {
+    "slide": 9,
+    "images": [
+      "image29.png",
+      "image28.jpeg",
+      "image31.jpg",
+      "image30.png"
+    ]
+  },
+  {
+    "slide": 10,
+    "images": []
+  },
+  {
+    "slide": 11,
+    "images": []
+  },
+  {
+    "slide": 12,
+    "images": [
+      "image32.png"
+    ]
+  }
+]

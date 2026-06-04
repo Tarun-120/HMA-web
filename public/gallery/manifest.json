@@ -1,0 +1,284 @@
+[
+  {
+    "page": 1,
+    "file": "page01_img1.jpeg",
+    "w": 256,
+    "h": 256
+  },
+  {
+    "page": 4,
+    "file": "page04_img1.jpeg",
+    "w": 800,
+    "h": 524
+  },
+  {
+    "page": 9,
+    "file": "page09_img1.jpeg",
+    "w": 300,
+    "h": 168
+  },
+  {
+    "page": 9,
+    "file": "page09_img2.jpeg",
+    "w": 299,
+    "h": 168
+  },
+  {
+    "page": 10,
+    "file": "page10_img1.jpeg",
+    "w": 225,
+    "h": 225
+  },
+  {
+    "page": 10,
+    "file": "page10_img2.jpeg",
+    "w": 200,
+    "h": 200
+  },
+  {
+    "page": 10,
+    "file": "page10_img3.jpeg",
+    "w": 225,
+    "h": 225
+  },
+  {
+    "page": 10,
+    "file": "page10_img4.jpeg",
+    "w": 200,
+    "h": 200
+  },
+  {
+    "page": 12,
+    "file": "page12_img1.jpeg",
+    "w": 559,
+    "h": 580
+  },
+  {
+    "page": 13,
+    "file": "page13_img1.jpeg",
+    "w": 540,
+    "h": 561
+  },
+  {
+    "page": 13,
+    "file": "page13_img2.jpeg",
+    "w": 431,
+    "h": 530
+  },
+  {
+    "page": 14,
+    "file": "page14_img1.jpeg",
+    "w": 714,
+    "h": 396
+  },
+  {
+    "page": 15,
+    "file": "page15_img1.jpeg",
+    "w": 439,
+    "h": 526
+  },
+  {
+    "page": 15,
+    "file": "page15_img2.jpeg",
+    "w": 444,
+    "h": 720
+  },
+  {
+    "page": 16,
+    "file": "page16_img1.jpeg",
+    "w": 867,
+    "h": 458
+  },
+  {
+    "page": 17,
+    "file": "page17_img1.jpeg",
+    "w": 450,
+    "h": 246
+  },
+  {
+    "page": 17,
+    "file": "page17_img2.jpeg",
+    "w": 450,
+    "h": 245
+  },
+  {
+    "page": 17,
+    "file": "page17_img3.jpeg",
+    "w": 450,
+    "h": 261
+  },
+  {
+    "page": 17,
+    "file": "page17_img4.jpeg",
+    "w": 573,
+    "h": 261
+  },
+  {
+    "page": 18,
+    "file": "page18_img1.jpeg",
+    "w": 451,
+    "h": 224
+  },
+  {
+    "page": 18,
+    "file": "page18_img2.jpeg",
+    "w": 451,
+    "h": 289
+  },
+  {
+    "page": 18,
+    "file": "page18_img3.jpeg",
+    "w": 414,
+    "h": 289
+  },
+  {
+    "page": 18,
+    "file": "page18_img4.jpeg",
+    "w": 414,
+    "h": 224
+  },
+  {
+    "page": 19,
+    "file": "page19_img1.jpeg",
+    "w": 463,
+    "h": 263
+  },
+  {
+    "page": 19,
+    "file": "page19_img2.jpeg",
+    "w": 463,
+    "h": 271
+  },
+  {
+    "page": 19,
+    "file": "page19_img3.jpeg",
+    "w": 463,
+    "h": 253
+  },
+  {
+    "page": 19,
+    "file": "page19_img4.jpeg",
+    "w": 463,
+    "h": 253
+  },
+  {
+    "page": 20,
+    "file": "page20_img1.jpeg",
+    "w": 307,
+    "h": 278
+  },
+  {
+    "page": 20,
+    "file": "page20_img2.jpeg",
+    "w": 275,
+    "h": 260
+  },
+  {
+    "page": 20,
+    "file": "page20_img3.jpeg",
+    "w": 306,
+    "h": 250
+  },
+  {
+    "page": 20,
+    "file": "page20_img4.jpeg",
+    "w": 281,
+    "h": 263
+  },
+  {
+    "page": 21,
+    "file": "page21_img1.jpeg",
+    "w": 194,
+    "h": 259
+  },
+  {
+    "page": 21,
+    "file": "page21_img2.jpeg",
+    "w": 302,
+    "h": 167
+  },
+  {
+    "page": 21,
+    "file": "page21_img3.jpeg",
+    "w": 259,
+    "h": 194
+  },
+  {
+    "page": 21,
+    "file": "page21_img4.jpeg",
+    "w": 194,
+    "h": 259
+  },
+  {
+    "page": 22,
+    "file": "page22_img1.jpeg",
+    "w": 307,
+    "h": 149
+  },
+  {
+    "page": 22,
+    "file": "page22_img2.jpeg",
+    "w": 343,
+    "h": 147
+  },
+  {
+    "page": 23,
+    "file": "page23_img1.jpeg",
+    "w": 486,
+    "h": 180
+  },
+  {
+    "page": 23,
+    "file": "page23_img2.jpeg",
+    "w": 216,
+    "h": 233
+  },
+  {
+    "page": 23,
+    "file": "page23_img3.jpeg",
+    "w": 320,
+    "h": 232
+  },
+  {
+    "page": 23,
+    "file": "page23_img4.jpeg",
+    "w": 359,
+    "h": 140
+  },
+  {
+    "page": 26,
+    "file": "page26_img1.jpeg",
+    "w": 323,
+    "h": 516
+  },
+  {
+    "page": 26,
+    "file": "page26_img2.jpeg",
+    "w": 471,
+    "h": 516
+  },
+  {
+    "page": 27,
+    "file": "page27_img1.jpeg",
+    "w": 430,
+    "h": 586
+  },
+  {
+    "page": 27,
+    "file": "page27_img2.jpeg",
+    "w": 423,
+    "h": 499
+  },
+  {
+    "page": 28,
+    "file": "page28_img1.jpeg",
+    "w": 589,
+    "h": 497
+  },
+  {
+    "page": 30,
+    "file": "page30_img1.jpeg",
+    "w": 960,
+    "h": 720
+  }
+]

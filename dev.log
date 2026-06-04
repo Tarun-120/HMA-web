@@ -1,0 +1,10 @@
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://100.120.46.45:3000
+✓ Ready in 860ms
+
+ GET / 200 in 1286ms (next.js: 307ms, application-code: 979ms)
+[browser] Image with src "/gallery/page12_img1.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading (file://C:/Users/Hero/Desktop/New folder/next-app/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2477:13)
+ GET / 200 in 74ms (next.js: 4ms, application-code: 70ms)
+[?25h
